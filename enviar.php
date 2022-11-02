@@ -18,5 +18,5 @@ $carta .= "Mensaje: $mensaje";
 // Enviando Mensaje
 mail($destinatario, $asunto, $carta);
 header('Location:mensaje-de-envio.html');
-
+echo "<a href=" . "mensaje-de-envio.html" . ">Enviar nuevo mensaje</a>";
 ?>
